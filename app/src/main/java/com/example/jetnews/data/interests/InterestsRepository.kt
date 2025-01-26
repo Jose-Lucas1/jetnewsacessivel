@@ -38,7 +38,7 @@ class InterestsRepository {
     val topics by lazy {
         mapOf(
             "Android" to listOf("Jetpack Compose", "Kotlin", "Jetpack"),
-            "Programming" to listOf("Kotlin", "Declarative UIs", "Java"),
+            "Programming" to listOf("Declarative UIs", "Java"),
             "Technology" to listOf("Pixel", "Google")
         )
     }
